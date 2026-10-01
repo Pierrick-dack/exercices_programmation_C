@@ -1,14 +1,13 @@
-# Exécutables (fichiers sans extension et exécutables Windows)
+# Exécutables (Windows et Linux)
 *.exe
-revisions
-exo*
-
-# Fichiers compilés dans les sous-dossiers
 **/*.exe
-**/*.o
-**/*.obj
+revisions
 
-# Fichiers système et configuration IDE
+# Fichiers intermédiaires
+*.o
+*.obj
+
+# Fichiers système et éditeurs
 .vscode/
 .idea/
 .DS_Store
