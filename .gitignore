@@ -1,7 +1,6 @@
 # Exécutables (Windows et Linux)
 *.exe
 **/*.exe
-revisions
 
 # Fichiers intermédiaires
 *.o
