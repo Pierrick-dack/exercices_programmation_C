@@ -1,0 +1,15 @@
+# Exécutables (fichiers sans extension et exécutables Windows)
+*.exe
+revisions
+exo*
+
+# Fichiers compilés dans les sous-dossiers
+**/*.exe
+**/*.o
+**/*.obj
+
+# Fichiers système et configuration IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
